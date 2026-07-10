@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026 CGM 衛教重點整理</title>
+  <meta name="description" content="2026 連續血糖監測（CGM）衛教工作手冊重點整理、投影片與逐頁說明。">
+  <meta property="og:title" content="2026 CGM 衛教重點整理">
+  <meta property="og:description" content="從 CGM 指標、警示設定到不同族群衛教重點的臨床教學版投影片。">
+  <meta property="og:image" content="https://tsn4830-ui.github.io/cgm-2026-education/og-image.png">
+  <meta property="og:url" content="https://tsn4830-ui.github.io/cgm-2026-education/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">2026 CGM Education</p>
+      <h1>連續血糖監測衛教重點整理</h1>
+    </div>
+    <nav class="actions">
+      <a href="2026_CGM_衛教重點整理.pptx" download>下載 PPTX</a>
+      <a href="speech.md" download>下載逐頁說明</a>
+      <button id="copyLink">複製下載連結</button>
+    </nav>
+  </header>
+  <main class="viewer">
+    <aside class="thumbs" id="thumbs" aria-label="投影片縮圖"></aside>
+    <section class="stage">
+      <div class="slideFrame">
+        <img id="currentSlide" alt="目前投影片">
+      </div>
+      <div class="controls">
+        <button id="prev" aria-label="上一張">←</button>
+        <span id="counter"></span>
+        <button id="next" aria-label="下一張">→</button>
+        <button id="toggleScript">完整講稿</button>
+      </div>
+    </section>
+    <aside class="notes">
+      <p class="eyebrow" id="pageRef"></p>
+      <h2 id="noteTitle"></h2>
+      <p id="noteBody"></p>
+      <div id="fullScript" hidden></div>
+    </aside>
+  </main>
+  <footer class="siteFooter">來源：2026連續血糖監測（CGM）衛教工作手冊。此頁為教育整理用途，臨床決策仍需依個案狀況與醫療團隊判斷。</footer>
+  <script src="slides.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
